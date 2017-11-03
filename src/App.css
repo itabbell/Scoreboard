@@ -1,0 +1,65 @@
+.scoreboard-cont {
+  outline: 5px solid black;
+  margin: 5% auto;
+  max-width: 90%;
+  text-align: center;
+}
+
+.scores {
+  display: inline-flex;
+}
+
+.home-score, .away-score {
+  margin: 5px 50px;
+}
+
+.score {
+  height: 100px;
+  width: 100px;
+  line-height: 100px;
+  font-size: 36px;
+  color: white;
+}
+
+.hscore {
+  background: dodgerblue;
+}
+
+.ascore {
+  background: tomato;
+}
+
+.home-radio, .away-radio {
+  display: inline-flex;
+  margin: 5px 75px;
+}
+
+.score-submit {
+  margin: 5px; 
+}
+
+.score-submit["type=submit"] {
+  margin: 100px;
+}
+
+.input {
+  height: 25px;
+  width: 200px;
+  font-size: 1.2em;
+}
+
+.reset {
+  margin: 10px;
+  border-radius: 0px;
+  border-color: grey;
+  height: 25px;
+  width: 150px;
+  background: grey;
+  color: white;
+  cursor: pointer;
+}
+
+.submit {
+  border-radius: 0;
+  margin-left: 10px;
+}
